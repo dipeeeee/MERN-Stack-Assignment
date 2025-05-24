@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #121212; /* very dark background */
+    color: #e0e0e0; /* light gray text for readability */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: #1e1e1e; /* slightly lighter dark for the form */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1); /* subtle light shadow */
+  }
+  
+  input, button {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #444; /* darker border */
+    background-color: #2c2c2c; /* input/button dark background */
+    color: #e0e0e0;
+  }
+  
+  input::placeholder {
+    color: #bbb; /* lighter placeholder text */
+  }
+  
+  button {
+    background-color: #0069d9; /* bright blue button */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0053ba; /* darker blue on hover */
+  }
+  
+  a {
+    color: #64b5f6; /* light blue links */
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #90caf9;
+  }
+  
